@@ -27,6 +27,9 @@ body, html {
 
 }
 
+#listen{
+    margin-top:50px;
+}
 .container h3{
     font-family: 'Nunito', sans-serif;
     padding-top: 40px;
@@ -71,8 +74,8 @@ input[type=text] {
 
 }
 .nav-item {
-    font-family: 'Nunito', sans-serif;
-    font-size: 14pt;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
 }
 
 .nav-link {
