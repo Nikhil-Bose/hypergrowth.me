@@ -17,18 +17,25 @@ body, html {
 .display-1 {
     font-family: 'Nunito', sans-serif;
     color:white;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+  ,lead p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:200;
+    color:white;
+    font-size:20px;
+    padding-top:0;
+    
 }
 .container h4 {
-    font-family: 'Nunito', sans-serif;
-    padding-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
     color:white;
-
+    font-size:20px;
 
 }
 
 #listen{
-    margin-top:50px;
 }
 .container h3{
     font-family: 'Nunito', sans-serif;
@@ -45,21 +52,6 @@ body, html {
     margin-bottom: 80px;
 }
 
-.input-group{
-    background-color: #363442;
-    background-color:#363442;
-    color:#363442;
-}
-
-input[type=text] {
-    background: #363442;
-    border: 3px solid white;
-    border-radius: 10px;  
-    background-image: url('send-message-button.png');
-    background-position: 97%;
-    background-repeat: no-repeat;
-    padding-left: 40px; 
-}
 
 .form-control{
     border-color:white;
@@ -100,6 +92,10 @@ input[type=text] {
     color:white;
   }
  
+svg {
+    margin-top:10px;
+    margin-right:10px;
+}
 
 #subtitle {
     color:white;
@@ -107,24 +103,38 @@ input[type=text] {
 }
 
 #anchor {
-    height: 15%;
-    width: 15%;
-    border-radius: 10px;
-
-}
-#scloud {
-    margin-left:20px;
-    height: 5%;
-    width: 10   %;
-    border-radius: 10px;
-
+    width:132.791px;
+    height:38.013px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    margin-right:10px;
 }
 
+#pocketcast {
+    width:132.791px;
+    height:34.013px;
+    border-radius: 12px;
+    margin-bottom:25px;
+    margin-right:10px;
+}
+#mm {
+    height:50%;
+    width:50%;
+    padding-right:25px;
+}
+
+#mm2{
+    margin-top:10px;
+    height:10%;
+    width:35%;
+
+}
 strong{
   font-style: italic;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
 }
+
 a {
     text-decoration: none;     
   }
@@ -132,4 +142,28 @@ a {
 iframe {
   margin-bottom:50px;
   margin-top: 20px;
+}
+
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:18px "Nunito Sans",sans-serif; 
+    width:100%;
+    margin-right: 30px;
+    margin-bottom:30px;
+
+}
+
+hr {
+    background-color: #363442;
+}
+
+.button{
+    color:white;
+    background-color:#363442;
+    font:14px "Nunito Sans",sans-serif; 
+    border-radius:8px;
+}
+#mce-EMAIL::placeholder {
+padding-left:10px;
 }
