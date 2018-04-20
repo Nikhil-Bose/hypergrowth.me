@@ -97,6 +97,13 @@ svg {
     margin-right:10px;
 }
 
+#googleplaymusic{
+    margin-bottom:20px;
+    height:40%;
+    margin-right:5px;
+    border-radius:5px;
+}    
+
 #subtitle {
     color:white;
     font-family: 'Nunito', sans-serif;
