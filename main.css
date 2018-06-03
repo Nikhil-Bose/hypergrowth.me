@@ -149,7 +149,7 @@ iframe {
 }
 
 #mc_embed_signup{
-    background:#fff; 
+    background:#363442;
     clear:left; 
     font:18px "Nunito Sans",sans-serif; 
     width:100%;
@@ -158,9 +158,8 @@ iframe {
 
 }
 
-hr {
-    background-color: #363442;
-}
+
+div.mc-field-group input{border-radius: 10px;background-color: #363442; border: 2px solid white;}
 
 .button{
     color:white;
@@ -168,11 +167,9 @@ hr {
     font:14px "Nunito Sans",sans-serif; 
     border-radius:8px;
 }
+
+
 #mce-EMAIL::placeholder {
 padding-left:10px;
 }
 
-div.mc-field-group input{
-    background-color:#363442;
-
-}
