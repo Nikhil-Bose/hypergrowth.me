@@ -154,26 +154,29 @@ iframe {
     width:100%;
     margin-right: 30px;
     margin-bottom:30px;
-
 }
 
 
-div.mc-field-group input{
+#mce-EMAIL{
     border-radius: 10px;
     background-color: #363442; 
-    color:#363442; 
     border: 2px solid white;
+    width: 80%;
+    height: 30px;
 }
 
-.button{
+#mc-embedded-subscribe{
     color:white;
     background-color:#363442;
     font:14px "Nunito Sans",sans-serif; 
     border-radius:8px;
+    height: 30px;
+    border: 2px solid white;
 }
 
 
 #mce-EMAIL::placeholder {
 padding-left:10px;
+color:white;
 }
 
