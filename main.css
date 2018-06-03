@@ -35,8 +35,7 @@ lead p {
 
 }
 
-#listen{
-}
+
 .container h3{
     font-family: 'Nunito', sans-serif;
     padding-top: 40px;
@@ -159,7 +158,12 @@ iframe {
 }
 
 
-div.mc-field-group input{border-radius: 10px;background-color: #363442; border: 2px solid white;}
+div.mc-field-group input{
+    border-radius: 10px;
+    background-color: #363442; 
+    color:#363442; 
+    border: 2px solid white;
+}
 
 .button{
     color:white;
